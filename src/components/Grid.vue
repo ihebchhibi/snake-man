@@ -1,7 +1,7 @@
 <template>
   <div class="grid">
-    <div v-for="n in 5" class="rows">
-      <Cell v-for="m in 5">({{ m }}, {{ n }})</Cell>
+    <div v-for="n in 50" class="rows">
+      <Cell v-for="m in 50">({{ m }}, {{ n }})</Cell>
     </div>
   </div>
 
